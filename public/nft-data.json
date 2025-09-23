@@ -1,22 +1,182 @@
 [
-  {"id":1, "name":"Genuine Undead #3902","artist":"StreetBoy","price":3.5,"image":"https://picsum.photos/seed/nft1/800/800","avatar":"https://i.pravatar.cc/48?img=1","description":"A gritty digital collectible merging street and surreal."},
-  {"id":2, "name":"Windchime #768","artist":"CutieGirl","price":2.9,"image":"https://picsum.photos/seed/nft2/800/800","avatar":"https://i.pravatar.cc/48?img=2","description":"Ancient metals and wind in a neon dusk."},
-  {"id":3, "name":"Probably A Label #3277","artist":"ButterFly","price":1.8,"image":"https://picsum.photos/seed/nft3/800/800","avatar":"https://i.pravatar.cc/48?img=3","description":"Minimal silhouette with cosmic backdrop."},
-  {"id":4, "name":"Shibuya Scramble Punks","artist":"BigBull","price":4.2,"image":"https://picsum.photos/seed/nft4/800/800","avatar":"https://i.pravatar.cc/48?img=4","description":"Savage realism meets urban neon."},
-  {"id":5, "name":"Digital Horizon","artist":"Sofia Lee","price":3.0,"image":"https://picsum.photos/seed/nft5/800/800","avatar":"https://i.pravatar.cc/48?img=5","description":"A horizon that never ends — imaginate."},
-  {"id":6, "name":"Looki #0147","artist":"CrazyAnyone","price":2.2,"image":"https://picsum.photos/seed/nft6/800/800","avatar":"https://i.pravatar.cc/48?img=6","description":"A playful creature from the dreamverse."},
-  {"id":7, "name":"Poob #285","artist":"Princess","price":1.6,"image":"https://picsum.photos/seed/nft7/800/800","avatar":"https://i.pravatar.cc/48?img=7","description":"A quiet sculpture with motionless eyes."},
-  {"id":8, "name":"Lookout #99","artist":"Angel","price":5.1,"image":"https://picsum.photos/seed/nft8/800/800","avatar":"https://i.pravatar.cc/48?img=8","description":"Top-tier collectible from a flagship collection."},
-  {"id":9, "name":"Neon City #21","artist":"Liam Chen","price":2.7,"image":"https://picsum.photos/seed/nft9/800/800","avatar":"https://i.pravatar.cc/48?img=9","description":"Cyberpunk alleyways under neon rain."},
-  {"id":10,"name":"Cosmic Dreams","artist":"Ava Smith","price":3.9,"image":"https://picsum.photos/seed/nft10/800/800","avatar":"https://i.pravatar.cc/48?img=10","description":"A surreal piece exploring cosmic dimensions."},
-  {"id":11,"name":"Rustwalker #7","artist":"LooserBad","price":1.1,"image":"https://picsum.photos/seed/nft11/800/800","avatar":"https://i.pravatar.cc/48?img=11","description":"Rust & steel mix in a melancholic figure."},
-  {"id":12,"name":"Velvet Dusk","artist":"Donna Schultz","price":2.4,"image":"https://picsum.photos/seed/nft12/800/800","avatar":"https://i.pravatar.cc/48?img=12","description":"Warm textures and slow gradients."},
-  {"id":13,"name":"Glass Orchard","artist":"Rosaria Vargas","price":2.0,"image":"https://picsum.photos/seed/nft13/800/800","avatar":"https://i.pravatar.cc/48?img=13","description":"Fragile architectures in digital glass."},
-  {"id":14,"name":"Viking Remnant","artist":"Carl Williams","price":4.8,"image":"https://picsum.photos/seed/nft14/800/800","avatar":"https://i.pravatar.cc/48?img=14","description":"An epic statue remnant in 3D."},
-  {"id":15,"name":"Sable Runner","artist":"Joshua Morris","price":3.3,"image":"https://picsum.photos/seed/nft15/800/800","avatar":"https://i.pravatar.cc/48?img=15","description":"Motion and shadow captured digitally."},
-  {"id":16,"name":"Iridescent Orb","artist":"Tiffany Betancourt","price":2.1,"image":"https://picsum.photos/seed/nft16/800/800","avatar":"https://i.pravatar.cc/48?img=16","description":"A compact jewel with color-shifts."},
-  {"id":17,"name":"Paper Moon #5","artist":"Mari Harrington","price":1.9,"image":"https://picsum.photos/seed/nft17/800/800","avatar":"https://i.pravatar.cc/48?img=17","description":"Paper aesthetics and low-fi charm."},
-  {"id":18,"name":"Steel Puppeteer","artist":"Floyd Glasgow","price":2.6,"image":"https://picsum.photos/seed/nft18/800/800","avatar":"https://i.pravatar.cc/48?img=18","description":"Surreal mechanical puppet series."},
-  {"id":19,"name":"Orchid Knight","artist":"Jacqueline Burns","price":5.6,"image":"https://picsum.photos/seed/nft19/800/800","avatar":"https://i.pravatar.cc/48?img=19","description":"High-design knight with floral motif."},
-  {"id":20,"name":"Twilight Runner","artist":"Rosaria Vargas","price":3.7,"image":"https://picsum.photos/seed/nft20/800/800","avatar":"https://i.pravatar.cc/48?img=20","description":"Runner silhouette under lavender skies."}
+  {
+    "id": 1,
+    "name": "Genuine Undead #3902",
+    "artist": "StreetBoy",
+    "price": 3.5,
+    "image": "/src/assets/img-1.jpg",
+    "avatar": "/src/assets/ava-1.jpg",
+    "description": "A gritty digital collectible merging street and surreal."
+  },
+  {
+    "id": 2,
+    "name": "Windchime #768",
+    "artist": "CutieGirl",
+    "price": 2.9,
+    "image": "/src/assets/img-2.jpg",
+    "avatar": "/src/assets/ava-2.jpg",
+    "description": "Ancient metals and wind in a neon dusk."
+  },
+  {
+    "id": 3,
+    "name": "Probably A Label #3277",
+    "artist": "ButterFly",
+    "price": 1.8,
+    "image": "/src/assets/img-3.jpg",
+    "avatar": "/src/assets/ava-3.jpg",
+    "description": "Minimal silhouette with cosmic backdrop."
+  },
+  {
+    "id": 4,
+    "name": "Shibuya Scramble Punks",
+    "artist": "BigBull",
+    "price": 4.2,
+    "image": "/src/assets/img-4.jpg",
+    "avatar": "/src/assets/ava-4.jpg",
+    "description": "Savage realism meets urban neon."
+  },
+  {
+    "id": 5,
+    "name": "Digital Horizon",
+    "artist": "Sofia Lee",
+    "price": 3.0,
+    "image": "/src/assets/img-5.jpg",
+    "avatar": "/src/assets/ava-5.jpg",
+    "description": "A horizon that never ends — imaginate."
+  },
+  {
+    "id": 6,
+    "name": "Looki #0147",
+    "artist": "CrazyAnyone",
+    "price": 2.2,
+    "image": "/src/assets/img-6.jpg",
+    "avatar": "/src/assets/ava-6.jpg",
+    "description": "A playful creature from the dreamverse."
+  },
+  {
+    "id": 7,
+    "name": "Poob #285",
+    "artist": "Princess",
+    "price": 1.6,
+    "image": "/src/assets/img-7.jpg",
+    "avatar": "/src/assets/ava-7.jpg",
+    "description": "A quiet sculpture with motionless eyes."
+  },
+  {
+    "id": 8,
+    "name": "Lookout #99",
+    "artist": "Angel",
+    "price": 5.1,
+    "image": "/src/assets/img-8.jpg",
+    "avatar": "/src/assets/ava-8.jpg",
+    "description": "Top-tier collectible from a flagship collection."
+  },
+  {
+    "id": 9,
+    "name": "Neon City #21",
+    "artist": "Liam Chen",
+    "price": 2.7,
+    "image": "/src/assets/img-9.jpg",
+    "avatar": "/src/assets/ava-9.jpg",
+    "description": "Cyberpunk alleyways under neon rain."
+  },
+  {
+    "id": 10,
+    "name": "Cosmic Dreams",
+    "artist": "Ava Smith",
+    "price": 3.9,
+    "image": "/src/assets/img-10.jpg",
+    "avatar": "/src/assets/ava-10.jpg",
+    "description": "A surreal piece exploring cosmic dimensions."
+  },
+  {
+    "id": 11,
+    "name": "Rustwalker #7",
+    "artist": "LooserBad",
+    "price": 1.1,
+    "image": "/src/assets/img-11.jpg",
+    "avatar": "/src/assets/ava-11.jpg",
+    "description": "Rust & steel mix in a melancholic figure."
+  },
+  {
+    "id": 12,
+    "name": "Velvet Dusk",
+    "artist": "Donna Schultz",
+    "price": 2.4,
+    "image": "/src/assets/img-12.jpg",
+    "avatar": "/src/assets/ava-12.jpg",
+    "description": "Warm textures and slow gradients."
+  },
+  {
+    "id": 13,
+    "name": "Glass Orchard",
+    "artist": "Rosaria Vargas",
+    "price": 2.0,
+    "image": "/src/assets/img-13.jpg",
+    "avatar": "/src/assets/ava-13.jpg",
+    "description": "Fragile architectures in digital glass."
+  },
+  {
+    "id": 14,
+    "name": "Viking Remnant",
+    "artist": "Carl Williams",
+    "price": 4.8,
+    "image": "/src/assets/img-14.jpg",
+    "avatar": "/src/assets/ava-14.jpg",
+    "description": "An epic statue remnant in 3D."
+  },
+  {
+    "id": 15,
+    "name": "Sable Runner",
+    "artist": "Joshua Morris",
+    "price": 3.3,
+    "image": "/src/assets/img-15.jpg",
+    "avatar": "/src/assets/ava-15.jpg",
+    "description": "Motion and shadow captured digitally."
+  },
+  {
+    "id": 16,
+    "name": "Iridescent Orb",
+    "artist": "Tiffany Betancourt",
+    "price": 2.1,
+    "image": "/src/assets/img-16.jpg",
+    "avatar": "/src/assets/ava-16.jpg",
+    "description": "A compact jewel with color-shifts."
+  },
+  {
+    "id": 17,
+    "name": "Paper Moon #5",
+    "artist": "Mari Harrington",
+    "price": 1.9,
+    "image": "/src/assets/img-17.jpg",
+    "avatar": "/src/assets/ava-17.jpg",
+    "description": "Paper aesthetics and low-fi charm."
+  },
+  {
+    "id": 18,
+    "name": "Steel Puppeteer",
+    "artist": "Floyd Glasgow",
+    "price": 2.6,
+    "image": "/src/assets/img-18.jpg",
+    "avatar": "/src/assets/ava-18.jpg",
+    "description": "Surreal mechanical puppet series."
+  },
+  {
+    "id": 19,
+    "name": "Orchid Knight",
+    "artist": "Jacqueline Burns",
+    "price": 5.6,
+    "image": "/src/assets/img-19.jpg",
+    "avatar": "/src/assets/ava-19.jpg",
+    "description": "High-design knight with floral motif."
+  },
+  {
+    "id": 20,
+    "name": "Twilight Runner",
+    "artist": "Rosaria Vargas",
+    "price": 3.7,
+    "image": "/src/assets/img-20.jpg",
+    "avatar": "/src/assets/ava-20.jpg",
+    "description": "Runner silhouette under lavender skies."
+  }
 ]
