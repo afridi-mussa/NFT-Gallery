@@ -1,0 +1,29 @@
+.card {
+  display:flex;
+  flex-direction:column;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-sm);
+  transition: transform .18s ease, box-shadow .18s ease;
+  text-decoration:none;
+  color:inherit;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+}
+.card-media { width:100%; height:260px; overflow:hidden; background: #111; display:flex; align-items:center; justify-content:center; }
+.card-media img { width:100%; height:100%; object-fit:cover; display:block; }
+
+.card-body { padding:14px; display:flex; flex-direction:column; gap:12px; }
+
+.artist { display:flex; gap:12px; align-items:center; }
+.artist img { width:44px; height:44px; border-radius:50%; border:2px solid rgba(255,255,255,0.04); }
+.artist-name { font-weight:700; font-size:0.98rem; }
+.small { color:var(--muted); font-size:0.9rem; padding-top:2px; }
+
+.card-meta { display:flex; justify-content:space-between; gap:12px; margin-top:6px; }
+.card-meta .label { font-size:0.8rem; color:var(--muted); }
+.card-meta .value { font-weight:700; margin-top:6px; }

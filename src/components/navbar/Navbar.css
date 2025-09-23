@@ -1,0 +1,36 @@
+.site-header {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-bottom: 1px solid rgba(255,255,255,0.02);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 80;
+}
+.nav-inner {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 18px 0;
+}
+.brand { display:flex; gap:12px; align-items:center; }
+.logo-mark {
+  width:42px; height:42px; border-radius:10px; background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex; align-items:center; justify-content:center; color:white; font-weight:700; box-shadow: var(--shadow-sm);
+}
+.brand-title { font-weight:700; }
+.brand-sub { font-size:.8rem; color:var(--muted); margin-top:2px; }
+
+.nav-links { display:flex; gap:22px; align-items:center; }
+.nav-links a { color: var(--text-light); font-weight:600; opacity:0.9; }
+.nav-links a:hover { color: var(--primary); }
+
+.nav-actions { display:flex; gap:12px; align-items:center; }
+.btn.connect {
+  background: linear-gradient(90deg,var(--primary),var(--accent));
+  color:white; padding:8px 14px; border-radius: 999px; font-weight:700;
+  box-shadow: var(--shadow-sm); border:none;
+}
+.avatar img { width:40px; height:40px; border-radius:50%; border:2px solid rgba(255,255,255,0.05); }
+@media (max-width:850px) {
+  .nav-links { display:none; }
+}
