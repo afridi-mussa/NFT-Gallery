@@ -7,7 +7,7 @@ const Details = () => {
   const [nft, setNft] = useState(null);
 
   useEffect(() => {
-    fetch("/nft-data.json")
+    fetch("/public/nft-data.json")
       .then(r => r.json())
       .then(data => {
         const found = data.find(x => x.id === parseInt(id));
