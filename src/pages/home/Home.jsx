@@ -10,7 +10,7 @@ const Home = () => {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("/nft-data.json")
+    fetch("/public/nft-data.json")
       .then((r) => r.json())
       .then((data) => setNfts(data));
   }, []);
