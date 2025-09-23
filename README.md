@@ -1,4 +1,4 @@
-Live Demo ( )
+
 
 📖 NFT Gallery – Documentation
 1. Overview
