@@ -14,7 +14,7 @@ Each card includes:
 
 NFT image
 
-Title / Name
+Title / Name :
 
 Artist
 
