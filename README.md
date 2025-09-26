@@ -56,7 +56,7 @@ Responsive Layout: CSS Grid & Flexbox ensure the gallery looks good on desktop, 
 
 Custom dropdowns: Arrows always point upward, menus open upward.
 
-3. Features
+3. Features : 
 
 ✅ Modern React + Vite setup
 ✅ Component-based architecture (Navbar, Hero, NFTCard, FilterBar, etc.)
