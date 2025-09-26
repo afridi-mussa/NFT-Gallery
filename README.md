@@ -1,7 +1,7 @@
 
 
 📖 NFT Gallery – Documentation
-1. Overview
+1. Overview :
 
 The NFT Gallery is a modern React-based web application that showcases digital artworks in a clean and professional interface. Users can browse, filter, search, and view details of NFTs, providing an interactive gallery experience.
 
