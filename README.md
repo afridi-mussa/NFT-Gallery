@@ -46,7 +46,7 @@ Artist info
 
 Price and metadata
 
-🎨 Modern UI
+🎨 Modern UI :
 
 Navbar: Simple brand/logo at the top.
 
