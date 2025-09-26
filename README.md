@@ -20,7 +20,7 @@ Artist
 
 Price
 
-🔎 Filtering & Sorting
+🔎 Filtering & Sorting :
 
 Filter by Artist: Dropdown to show NFTs from a specific artist.
 
