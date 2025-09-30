@@ -12,7 +12,7 @@ Displays a grid of 15–20 NFT cards.
 
 Each card includes:
 
-NFT imag
+NFT image
 
 Title / Name :
 
